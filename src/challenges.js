@@ -15,8 +15,8 @@ return (base*height) /2;
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(xablau) {
+  return xablau.split(' ');
 }
 
 // Desafio 4
