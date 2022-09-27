@@ -20,9 +20,11 @@ function splitSentence(xablau) {
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(array) {
+ let nameConcat = array[array.length-1]+ ", " + array[0];
+ return nameConcat;
 }
+//concatName(['Lucas', 'Cassiano', 'Ferraz', 'Paolilo'])//
 
 // Desafio 5
 function footballPoints() {
