@@ -38,9 +38,31 @@ function footballPoints(vitorias,empates) {
 
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(count) {
+
+  let numeroMaior=-20;
+  let countHighest =0;
+
+  for (let index = 0; index < count.length; index +=1) {
+
+    if(count[index]>numeroMaior){
+
+      numeroMaior = count[index];    
+    }
+    
+  }
+  for (let index = 0; index < count.length; index+=1) {
+    if (numeroMaior===count[index]) {
+
+       countHighest+=1;
+      
+    }
+    
+  }
+  //console.log("O numero maior é = "+ numeroMaior);
+return countHighest
 }
+//highestCount([300,50,300,100])
 
 // Desafio 7
 function catAndMouse() {
