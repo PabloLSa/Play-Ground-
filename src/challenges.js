@@ -84,26 +84,28 @@ function catAndMouse(mouse, cat1,cat2) {
 // Desafio 8
 function fizzBuzz(numbers) {
   let stringResultado =[];
+
   for (let index = 0; index < numbers.length; index +=1) {
 
-    if(numbers[index] % 3 === 0){
+    if(numbers[index] % 3 === 0 && numbers[index] % 5 ==0){
+      stringResultado.push('fizzBuzz');
+
+    }else if(numbers[index] % 3 === 0){
 
       stringResultado.push('fizz');
 
-    }else if(numbers[index] % 5 === 0){
+    }else if(numbers[index] % 5 ===0){
 
       stringResultado.push('buzz');
-
-    }else if(numbers[index] % 3 === 0 && numbers[index] % 5 ==0){
-      stringResultado.push('fizzBuzz');
-
-    } else {
+    }else {
       stringResultado.push('bug!');
     }
+
+    } 
+  
     return stringResultado;
   }
   
-}
 
 // Desafio 9
 function encode() {
