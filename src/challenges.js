@@ -65,8 +65,20 @@ return countHighest
 //highestCount([300,50,300,100])
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1,cat2) {
+  let gatoPosi1 = Math.abs(mouse - cat1);
+  let gatoPosi2 = Math.abs(mouse - cat2);
+
+  if (gatoPosi1 < gatoPosi2) {
+
+    return 'cat1';
+    
+  } else if (gatoPosi1 > gatoPosi2) {
+
+    return 'cat2';
+  }
+  return 'os gatos trombam e o rato foge';
+
 }
 
 // Desafio 8
