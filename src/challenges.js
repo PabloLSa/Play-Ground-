@@ -108,11 +108,26 @@ function fizzBuzz(numbers) {
   
 
 // Desafio 9
-function encode() {
-  // seu código aqui
-}
-function decode() {
-  // seu código aqui
+function encode(texto) {
+  let txt1 = texto.replace(/a/g, '1')
+  .replace(/e/g,'2' )
+  .replace(/i/g,'3')
+  .replace(/o/g,'4')
+  .replace(/u/g,'5')
+
+  return txt1;
+  }
+
+
+function decode(texto) {
+  let txt1= texto.replace(/1/g,'a')
+  .replace(/2/g,'e' )
+  .replace(/3/g,'i')
+  .replace(/4/g,'o')
+  .replace(/5/g,'u')
+
+  return txt1;
+
 }
 
 // Desafio 10
