@@ -131,9 +131,27 @@ function decode(texto) {
 }
 
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(arrayTech, nameConcat) {
+   let array = [];
+  
+  if(arrayTech.length===0){
+
+  return 'Vazio!' ;
+  }
+  else{
+
+  arrayTech.sort();
+
+  for (let index of arrayTech) {
+    array.push({tech: index, name : nameConcat })
+    
+      }
+  return array;
+  
+     }
+  
 }
+
 
 module.exports = {
   calcArea,
