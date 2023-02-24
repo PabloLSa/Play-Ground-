@@ -6,6 +6,9 @@ Javascript ES6, aprendo let, const, arrow functions e template literals .
 No projeto implementei funções, quebrei grandes problemas em problemas menores e utilizei lógica de programação na resolução.
 Conseguir aplicar lógica de programação na prática utilizando o JavaScript, tive ajuda de uns amigos, mas foi mesmo mãos na massa!!! 💪🍝
 
+
+## Trybe:
+
 O que vamos avaliar?
 
 Aderência do código à especificação. Seu programa deve se comportar como especificado na próxima seção.
